@@ -1,0 +1,136 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;    
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Header Styling */
+.header-logo img{
+    width: 34px;
+    height: 34px;
+}
+
+.header-container,.header-logo, ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container{
+    padding: 1.5em 3.3125em;    
+}
+
+.title{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-left: 4px;
+}
+
+li{
+    font-weight: 600;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    padding-left: 1.5em;
+    color:#090909;
+}
+
+/* Hero Styling */
+.hero-img-container img{
+    height:50vh;
+}
+
+.hero-img-container{
+    position: relative;
+}
+
+.hero-container{
+    position: absolute;
+    bottom:3.75em;
+    left: 3.3125em;        
+    max-width: 650px;
+    color: white;
+}
+
+.hero-date{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.hero-title{
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+.hero-description{
+    font-weight: 400;
+    line-height: 20.11px;
+    font-style: normal;
+}
+
+/*Blogs Container Styling */
+.blogs-container{
+    display: grid;
+    grid-gap: 1.625em;
+    grid-template: 1fr 1fr /1fr 1fr 1fr;
+    padding: 2em;
+}
+
+/*Individual Blog Styling*/
+.blog-img{
+    border-radius: 3px;
+}
+
+.blog-date{
+    margin: 0.875em 0;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.blog-title{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #141414;
+}
+
+.blog-description{
+    font-weight: 400;
+    color: #505050;
+}
+
+.view-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    margin-top: 2em;
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    font-size: 0.875rem;
+    text-decoration-line:underline ;
+}
+
+/*Footer Styling*/
+.footer-container{
+    margin-top: 3.3125em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #202020;
+    height: 15vh;
+}
